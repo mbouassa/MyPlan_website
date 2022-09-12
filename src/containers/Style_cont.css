@@ -1,0 +1,31 @@
+
+.signup_button {
+    background: linear-gradient(90deg, rgba(231,87,156,1) 36%, rgba(237,157,224,1) 71%);
+    text-align: center;
+    border: 2px linear-gradient(90deg, rgba(231,87,156,1) 36%, rgba(237,157,224,1) 71%);
+    border-color: '#FF8C69';
+    width: 150px;
+    border-radius: 20px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.login_button {
+    margin-right: 10px;
+    background: 'white';
+    border: 2px solid linear-gradient(90deg, rgba(231,87,156,1) 36%, rgba(237,157,224,1) 71%);
+    border-color: '#FF8C69';
+    text-align: center;
+    width: 100px;
+    border-radius: 20px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.Motto_container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+
