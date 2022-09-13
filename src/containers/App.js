@@ -79,7 +79,7 @@ function App() {
         </div>
 
         <div className="motto">
-          <div style = {{width: getWindowSize()/1.8, marginRight:200}}>
+          <div style = {{width: getWindowSize()/1.1, marginRight:200}}>
 
             
           <h1 className = 'Open Sans' style = {{fontSize: 70,   fontFamily: 'Open Sans', fontWeight: 500}}>
@@ -127,11 +127,11 @@ function App() {
 
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKnIRTQ52IO-zTD8TMNbJV6LzK03Ptuf3bxTk6M9nTVLQPTw/viewform?vc=0&c=0&w=1&flr=0">
               
-            <h3 style = {{cursor: 'pointer', fontFamily: 'Open Sans'}}>Android ></h3>
+            <h3 style = {{cursor: 'pointer', fontFamily: 'Open Sans'}}>{"Iphone >"}</h3>
             </a>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKnIRTQ52IO-zTD8TMNbJV6LzK03Ptuf3bxTk6M9nTVLQPTw/viewform?vc=0&c=0&w=1&flr=0">
 
-            <h3 style = {{cursor: 'pointer', fontFamily: 'Open Sans'}}>iPhone ></h3>
+            <h3 style = {{cursor: 'pointer', fontFamily: 'Open Sans'}}>{"Android >"}</h3>
             </a>
 
           </div>
@@ -176,7 +176,7 @@ function App() {
 
           </div>
 
-          <div style = {{width: getWindowSize()/1.8, marginRight:200}}>
+          <div style = {{width: getWindowSize()/1, marginRight:200}}>
 
             
           <h1 className = "MottoContainer" style = {{fontSize: 70,   fontFamily: 'Open Sans', fontWeight: 500}}>
