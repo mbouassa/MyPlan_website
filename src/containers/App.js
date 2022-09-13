@@ -1,44 +1,49 @@
 import './App.css';
-import React, {Component} from 'react';
+import React, {useState, useEffect} from 'react';
 import MyPlan from '../images/MyPlan.png'
 import calendar_MyPlan from '../images/calendar_MyPlan.jpg'
 import graph_MyPlan from '../images/graph_MyPlan.jpg'
 import questions_sleep from '../images/questions_sleep.jpg'
 import Add_MyPlan from '../images/Add_MyPlan.jpg'
-import myprof_MyPlan from '../images/myprof_MyPlan.jpg'
 import sport_MyPlan from '../images/sport_MyPlan.jpg'
 import prod_MyPlan from '../images/prod_MyPlan.jpg'
 import Sleep_MyPlan from '../images/Sleep_MyPlan.jpg'
+
+import {
+  BrowserRouter,
+  Routes, //replaces "Switch" used till v5
+  Route,
+} from "react-router-dom";
 
 
 
 import './Style_cont.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import Card from '../components/Card';
 import CardList from '../components/CardList';
 
 
-const images = [
-    { src: MyPlan }
-];
+
 
 function getWindowSize() {
   const {innerWidth} = window;
   console.log({innerWidth})
   return innerWidth;
 }
-class App extends Component {
-  
-
-  
-
-  render() {
-    
 
 
+
+
+
+
+function App() {
+  //const navigate = useNavigate();
+      const [count, setCount] = useState(0)
+      console.log(count)
+      
       
       return (
+        
         
         
         
@@ -54,13 +59,17 @@ class App extends Component {
 
           <div className="tr login">
             <p2 className = "language" style = {{fontFamily: 'Open Sans'}}>English (US)</p2>
-          <button className = "login_button" style = {{color: '#FF8C69'}}>
-            <p2 style = {{fontFamily: 'Open Sans'}}>log in</p2>
-            </button>
-
-            <button className = "signup_button">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKnIRTQ52IO-zTD8TMNbJV6LzK03Ptuf3bxTk6M9nTVLQPTw/viewform?vc=0&c=0&w=1&flr=0">
+              <button className = "login_button" style = {{color: '#FF8C69'}}>
+                <p2 style = {{fontFamily: 'Open Sans'}}>log in</p2>
+              </button>
+            </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKnIRTQ52IO-zTD8TMNbJV6LzK03Ptuf3bxTk6M9nTVLQPTw/viewform?vc=0&c=0&w=1&flr=0">
+            <button  className = "signup_button">
+          
             <p2 style= {{color:'white', fontFamily: 'Open Sans'}}>Sign Up - It's Free!</p2>
             </button>
+            </a>
 
           </div>
 
@@ -115,8 +124,16 @@ class App extends Component {
         </div>
 
         <div className = "Andr_ios" style = {{marginLeft: getWindowSize()/4.5}}>
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKnIRTQ52IO-zTD8TMNbJV6LzK03Ptuf3bxTk6M9nTVLQPTw/viewform?vc=0&c=0&w=1&flr=0">
+              
             <h3 style = {{cursor: 'pointer', fontFamily: 'Open Sans'}}>Android ></h3>
+            </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKnIRTQ52IO-zTD8TMNbJV6LzK03Ptuf3bxTk6M9nTVLQPTw/viewform?vc=0&c=0&w=1&flr=0">
+
             <h3 style = {{cursor: 'pointer', fontFamily: 'Open Sans'}}>iPhone ></h3>
+            </a>
+
           </div>
 
 
@@ -190,10 +207,13 @@ class App extends Component {
         </div>
         <div className='tc' style = {{backgroundColor: "white"}}>
         <CardList/>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKnIRTQ52IO-zTD8TMNbJV6LzK03Ptuf3bxTk6M9nTVLQPTw/viewform?vc=0&c=0&w=1&flr=0">
+
         <button style = {{marginBottom: 50}} className = "signup_button">
 
         <p2 style= {{color:'black', fontFamily: 'Open Sans'}}>Get Started!</p2>
         </button>
+        </a>
 
 
         </div>
@@ -224,7 +244,7 @@ class App extends Component {
 
 
     );
-  }
 }
 
 export default App;
+
