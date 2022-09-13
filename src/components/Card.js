@@ -1,5 +1,4 @@
 import React from 'react';
-import MyPlan from '../images/MyPlan.png'
 import Scroll from './Scroll';
 
 const Card = ({source, par}) => {
