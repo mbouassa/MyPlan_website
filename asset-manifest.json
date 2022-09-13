@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MYPLAN_WEBSITE/static/css/main.ce27b2f4.css",
-    "main.js": "/MYPLAN_WEBSITE/static/js/main.356c6068.js",
+    "main.js": "/MYPLAN_WEBSITE/static/js/main.34b3c1e8.js",
     "static/media/stu_3.jpg": "/MYPLAN_WEBSITE/static/media/stu_3.758d40eaab9d25cb75df.jpg",
     "static/media/sport_MyPlan.jpg": "/MYPLAN_WEBSITE/static/media/sport_MyPlan.6ea9ae8761c5fd469011.jpg",
     "static/media/Sleep_MyPlan.jpg": "/MYPLAN_WEBSITE/static/media/Sleep_MyPlan.071bd73c629b4814a931.jpg",
@@ -15,10 +15,10 @@
     "static/media/MyPlan.png": "/MYPLAN_WEBSITE/static/media/MyPlan.d2b0f2d65347443ca7f5.png",
     "index.html": "/MYPLAN_WEBSITE/index.html",
     "main.ce27b2f4.css.map": "/MYPLAN_WEBSITE/static/css/main.ce27b2f4.css.map",
-    "main.356c6068.js.map": "/MYPLAN_WEBSITE/static/js/main.356c6068.js.map"
+    "main.34b3c1e8.js.map": "/MYPLAN_WEBSITE/static/js/main.34b3c1e8.js.map"
   },
   "entrypoints": [
     "static/css/main.ce27b2f4.css",
-    "static/js/main.356c6068.js"
+    "static/js/main.34b3c1e8.js"
   ]
 }
