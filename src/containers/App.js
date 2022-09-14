@@ -8,6 +8,12 @@ import Add_MyPlan from '../images/Add_MyPlan.jpg'
 import sport_MyPlan from '../images/sport_MyPlan.jpg'
 import prod_MyPlan from '../images/prod_MyPlan.jpg'
 import Sleep_MyPlan from '../images/Sleep_MyPlan.jpg'
+import Slide from 'react-reveal/Slide';
+
+
+
+
+
 
 import {
   BrowserRouter,
@@ -49,6 +55,7 @@ function App() {
         
         <div>
           
+          
         <div className="statusBar">
 
           <img className="row br-100 h3 w3 dib grow"
@@ -77,7 +84,6 @@ function App() {
 
 
         </div>
-
         <div className="motto">
           <div style = {{width: getWindowSize()/1.1, marginRight:200}}>
 
@@ -122,6 +128,7 @@ function App() {
 
 
         </div>
+        
 
         <div className = "Andr_ios" style = {{marginLeft: getWindowSize()/4.5}}>
 
@@ -135,6 +142,8 @@ function App() {
             </a>
 
           </div>
+
+          <Slide right duration={3000}>
 
 
 
@@ -192,7 +201,9 @@ function App() {
 
 
         </div>
+        </Slide>
 
+        <Slide left duration={3000}>
         <div className="statusBar" style = {{flex:1, padding: 20, marginTop: 150, marginBottom:150}}>
           <div style = {{width: getWindowSize()/1.8, marginRight:200}}>
         <h1 className = "MottoContainer" style = {{fontSize: 70,   fontFamily: 'Open Sans', fontWeight: 500}}>
@@ -205,6 +216,8 @@ function App() {
            that helps you become the best version of yourself</p1>
 
         </div>
+        </Slide>
+        <Slide bottom duration={3000}>
         <div className='tc' style = {{backgroundColor: "white"}}>
         <CardList/>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKnIRTQ52IO-zTD8TMNbJV6LzK03Ptuf3bxTk6M9nTVLQPTw/viewform?vc=0&c=0&w=1&flr=0">
@@ -217,6 +230,7 @@ function App() {
 
 
         </div>
+        </Slide>
 
         
 
